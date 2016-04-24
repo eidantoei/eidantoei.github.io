@@ -21,6 +21,7 @@ header h1 a {
 .small {font-size:75%;}
 .text-box {
   display:inline-block;
+  vertical-align: top;
   min-width:300px;
   max-width:500px;
   background:url('images/bg-transp-wh-50.png') repeat;
@@ -29,6 +30,9 @@ header h1 a {
 }
 .text-box h2 {
   margin-top:1.5em;
+}
+.text-box.profile {
+  vertical-align: bottom;
 }
 ul {padding-left:1.5em;}
 </style>
@@ -46,6 +50,16 @@ ul {padding-left:1.5em;}
   <header>
     <h1><a href="http://eidantoei.org/">Eidantoei</a></h1>
   </header>
+  <div class="text-box">
+    <h2>銀座線で見た野良サインの本</h2>
+    <ul>
+      <li style="list-style:none;"><img src="images/norasign-ginzaline-case3.jpg" width="300px"></li>
+    </ul>
+    <ul>
+      <li>銀座線の各駅でみつけた野良サインをまとめた本</li>
+      <li>COMITIA116 (2016/5/5) で頒布予定</li>
+    </ul>
+  </div>
   <div class="text-box">
     <h2>『太子楼五體字類』</h2>
     <ul>
@@ -76,7 +90,7 @@ ul {padding-left:1.5em;}
       <li>COMITIA112 (2015/5/5)</li>
     </ul>
   </div>
-  <div class="text-box">
+  <div class="text-box profile">
     <h2>Eidantoei</h2>
     <ul>
       <li>kssk
